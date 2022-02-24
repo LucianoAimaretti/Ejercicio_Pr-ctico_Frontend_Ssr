@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./sass/app.scss";
+import data from "./api/articles.js";
+import Articulo from "./components/Articulo";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="body_container">
+            {data.map((grupoTipo, index) => {
+                return <Articulo key={index} articulos={grupoTipo.articulos} />;
+            })}
+        </div>
+    );
 }
 
 export default App;
