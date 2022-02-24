@@ -2,12 +2,6 @@
 @import "../../sass/variables";
 
 .modulo {
-    @include tablet {
-        // diferentes modulos
-    }
-    @include desktop {
-    }
-
     &_titulo {
         font-family: $font-header;
         font-style: normal;
@@ -21,12 +15,12 @@
     &_main {
         display: flex;
         flex-direction: column;
-        gap: 32px;
-        max-width: 767px;
-        @include tablet {
-        }
+        align-items: center;
+        gap: 16px;
 
-        @include desktop {
-        }
+        max-width: 767px;
     }
+    @import "./Estilos/notas_2.scss";
+    @import "./Estilos/notas_3.scss";
+    @import "./Estilos/focal_derecho.scss";
 }
