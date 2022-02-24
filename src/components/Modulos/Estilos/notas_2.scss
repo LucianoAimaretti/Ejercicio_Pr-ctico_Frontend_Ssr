@@ -1,0 +1,20 @@
+.notas_2 {
+    @include tablet {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .article_container {
+            align-items: center;
+            width: 100%;
+            .imagen_style {
+                height: 240px;
+            }
+        }
+    }
+    @include desktop {
+        .article_container {
+            .imagen_style {
+                min-height: 293.33px;
+            }
+        }
+    }
+}
