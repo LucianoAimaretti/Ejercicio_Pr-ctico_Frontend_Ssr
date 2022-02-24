@@ -1,11 +1,13 @@
 @import "./media-queries";
 @import "./variables";
 
-* {
+*,
+html {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -14,9 +16,10 @@ body {
 }
 
 .container {
+    align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
-    gap: 64px;
-    align-items: center;
-    padding: 64px 0;
+    padding: 32px 0;
+    gap: 32px;
 }
