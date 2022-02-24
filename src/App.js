@@ -1,13 +1,13 @@
 import React from "react";
 import "./sass/app.scss";
 import data from "./api/articles.js";
-import Articulo from "./components/Articulo";
+import CrearArticulo from "./components/Articulos/CrearArticulo";
 
 function App() {
     return (
         <div className="body_container">
             {data.map((grupoTipo, index) => {
-                return <Articulo key={index} articulos={grupoTipo.articulos} />;
+                return <CrearArticulo key={index} articulos={grupoTipo.articulos} />;
             })}
         </div>
     );

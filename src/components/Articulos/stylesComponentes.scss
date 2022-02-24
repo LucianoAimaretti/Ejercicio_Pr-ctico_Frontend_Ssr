@@ -26,12 +26,14 @@
     }
 }
 .titulo_styles {
+    margin: 0 0 8px;
     padding: 0 16px;
     font-family: $font-header;
     font-style: normal;
     font-weight: normal;
     font-size: $font-size-header-medium;
     line-height: $line-height-header-medium;
+    color: $color-titulo;
 }
 .volanta_styles {
     color: $color-volanta;
@@ -46,6 +48,7 @@
         font-weight: normal;
         font-size: $font-size-subhead;
         line-height: $line-height-subhead;
+        color: $color-bajada;
     }
 }
 
@@ -58,6 +61,7 @@
         font-weight: bold;
         font-size: 14px;
         line-height: 16px;
+        color: $color-marquesina;
     }
 }
 
