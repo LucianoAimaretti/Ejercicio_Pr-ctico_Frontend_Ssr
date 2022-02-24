@@ -62,7 +62,6 @@ function ClasificadorModulos({ tipo, articulos }) {
                     </div>
                     <div className="parte_derecha">
                         <Articulo articulos={articulos[1]} />
-                        <Articulo articulos={articulos[2]} />
                     </div>
                 </>
             );
