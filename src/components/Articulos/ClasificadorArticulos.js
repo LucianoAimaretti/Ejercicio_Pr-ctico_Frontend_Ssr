@@ -10,7 +10,7 @@ const AdministradorComponentes = (datos) => ({
     Marquesina: () => <Marquesina url={datos.url} nombreAutor={datos.nombreAutor} marquesina={datos.marquesina} />,
 });
 
-function ClasificarArticulos({ tipo, datos }) {
+function ClasificadorArticulos({ tipo, datos }) {
     const { Encabezado, Bajada, Imagen, ImagenAutor, Marquesina } = AdministradorComponentes(datos);
     switch (tipo) {
         case "autor":
@@ -42,4 +42,4 @@ function ClasificarArticulos({ tipo, datos }) {
     }
 }
 
-export default ClasificarArticulos;
+export default ClasificadorArticulos;
