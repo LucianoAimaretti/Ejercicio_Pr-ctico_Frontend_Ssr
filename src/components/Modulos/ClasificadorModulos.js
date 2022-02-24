@@ -6,23 +6,30 @@ function ClasificadorModulos({ tipo, articulos }) {
         case "notas_2":
             return (
                 <>
-                    <Articulo articulo={articulos} />
+                    <Articulo articulos={articulos[0]} />
+                    <Articulo articulos={articulos[1]} />
                 </>
             );
         case "notas_3":
             return (
                 <>
-                    <Articulo articulo={articulos} />
+                    <Articulo articulos={articulos[0]} />
+                    <Articulo articulos={articulos[1]} />
+                    <Articulo articulos={articulos[2]} />
                 </>
             );
         case "notas_6":
             return (
                 <>
                     <div className="fila">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[0]} />
+                        <Articulo articulos={articulos[1]} />
+                        <Articulo articulos={articulos[2]} />
                     </div>
                     <div className="fila">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[3]} />
+                        <Articulo articulos={articulos[4]} />
+                        <Articulo articulos={articulos[5]} />
                     </div>
                 </>
             );
@@ -30,13 +37,19 @@ function ClasificadorModulos({ tipo, articulos }) {
             return (
                 <>
                     <div className="fila">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[0]} />
+                        <Articulo articulos={articulos[1]} />
+                        <Articulo articulos={articulos[2]} />
                     </div>
                     <div className="fila">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[3]} />
+                        <Articulo articulos={articulos[4]} />
+                        <Articulo articulos={articulos[5]} />
                     </div>
                     <div className="fila">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[6]} />
+                        <Articulo articulos={articulos[7]} />
+                        <Articulo articulos={articulos[8]} />
                     </div>
                 </>
             );
@@ -45,10 +58,11 @@ function ClasificadorModulos({ tipo, articulos }) {
             return (
                 <>
                     <div className="parte_izquierda">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[0]} />
                     </div>
                     <div className="parte_derecha">
-                        <Articulo articulo={articulos} />
+                        <Articulo articulos={articulos[1]} />
+                        <Articulo articulos={articulos[2]} />
                     </div>
                 </>
             );
