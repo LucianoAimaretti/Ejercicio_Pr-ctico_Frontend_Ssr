@@ -20,7 +20,33 @@
 
         max-width: 767px;
     }
-    @import "./Estilos/notas_2.scss";
-    @import "./Estilos/notas_3.scss";
-    @import "./Estilos/focal_derecho.scss";
+}
+@include tablet {
+    .modulo {
+        &_titulo {
+            font-family: $font-header;
+            font-style: normal;
+            font-weight: normal;
+            margin: 8px 0;
+        }
+        @import "./Estilos/notas_2.scss";
+        @import "./Estilos/focal_derecho.scss";
+    }
+}
+@include desktop {
+    .modulo {
+        margin-right: 340px;
+
+        &_titulo {
+            font-family: $font-header;
+            font-style: normal;
+            font-weight: normal;
+        }
+        &_main {
+            gap: 40;
+            max-width: 920px;
+        }
+        @import "./Estilos/notas_2.scss";
+        @import "./Estilos/focal_derecho.scss";
+    }
 }

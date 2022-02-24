@@ -1,19 +1,19 @@
 @import "./variables";
 
 @mixin mobile {
-    @media screen and (max-width: $mobile-size) {
+    @media screen and (min-width: $mobile-size) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media screen and (max-width: $tablet-size) {
+    @media screen and (min-width: $tablet-size) {
         @content;
     }
 }
 
 @mixin desktop {
-    @media screen and (max-width: $desktop-size) {
+    @media screen and (min-width: $desktop-size) {
         @content;
     }
 }
