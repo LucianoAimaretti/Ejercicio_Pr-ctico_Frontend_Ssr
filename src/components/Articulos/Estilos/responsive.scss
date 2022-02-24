@@ -1,0 +1,22 @@
+@import "../../../sass/variables";
+@import "../../../sass/media-queries";
+
+@include tablet {
+    .article_container {
+        width: 234px;
+
+        .titulo_styles {
+            font-size: $font-size-header-medium;
+            line-height: $line-height-header-medium;
+            padding: 0;
+        }
+        .imagen_style {
+            height: 156px;
+        }
+        .autor {
+            width: 234.67px;
+            padding: 16px;
+            margin: 0;
+        }
+    }
+}
