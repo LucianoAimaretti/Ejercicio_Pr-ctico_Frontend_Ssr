@@ -1,0 +1,111 @@
+const articles = [
+    {
+        titulo: "Actualidad",
+        link: "",
+        tipo: "focal_derecho",
+        articulos: [
+            {
+                tipo: "",
+                volanta: "Volanta",
+                titulo: "Esto es un titulo de la novedad con unas cuantas lineas que ocupar",
+                bajada: "Subhead. Lana soñaba con volar a la luna. Todas las tardes se tumbaba en su cama y se imaginaba cómo sería su viaje a bordo de su propia nave espacial.",
+                imagen: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                marquesina: "Marquesina",
+                nombreAutor: "Autor",
+                imagenAutor: "",
+                url: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+            },
+            {
+                tipo: "",
+                volanta: "Reunión de urgencia",
+                titulo: "Tenso cruce entre Rusia y Ucrania durante el Consejo de Seguridad de la ONU",
+                bajada: "El representante ucraniano habló en duros términos sobre el accionar del presidente Vladimir Putin y fue acompañado por todas las potencias occidentales que respaldaron a Kiev; la reunión finalizó con un pedido de resolución pacífica del conflicto",
+                imagen: "https://resizer.glanacion.com/resizer/_0AMHuBdbvBNS5oTirnVI3N7zMk=/560x373/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/6JMSZI44JNHPPDM4SU7PD3DZ4M.JPG",
+                marquesina: "El Mundo",
+                nombreAutor: "La Nacion",
+                imagenAutor: "",
+                url: "https://www.lanacion.com.ar/el-mundo/rusia-ucrania-estados-unidos-y-las-potencias-occidentales-en-alerta-por-el-avance-de-vladimir-putin-nid21022022/",
+            },
+            {
+                tipo: "",
+                volanta: "Interna en JxC",
+                titulo: "Las incógnitas que abre en Pro la reaparición de Macri en el centro de la escena",
+                imagen: "https://resizer.glanacion.com/resizer/i_RJoPTzBInT39QM4z9IIlx12j4=/375x250/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KHLQZJQZWRAFDI4VZO4LDW7CR4.jpg",
+                nombreAutor: "Matías Moreno",
+                imagenAutor:
+                    "https://resizer.glanacion.com/resizer/H0bAPygOqfZgvhf2lfADFrinyUU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3H4MZ3Z5TNHEDCWRMJSNVDXJFE",
+                url: "https://www.lanacion.com.ar/",
+            },
+        ],
+    },
+    {
+        titulo: "Opinión",
+        link: "https://www.lanacion.com.ar/opinion/",
+        tipo: "notas_2",
+        articulos: [
+            {
+                tipo: "invertida",
+                volanta: "Volanta 3",
+                titulo: "El acuerdo con el FMI agudiza la división del oficialismo en el Senado",
+                bajada: "Senadores referenciados en los gobernadores apoyaron el entendimiento y desafiaron la orden de mantener silencio que bajó Cristina Kirchner",
+                imagen: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                marquesina: "Marquesina",
+                nombreAutor: "SeñorX",
+                imagenAutor:
+                    "https://resizer.glanacion.com/resizer/H0bAPygOqfZgvhf2lfADFrinyUU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3H4MZ3Z5TNHEDCWRMJSNVDXJFE",
+                url: "https://www.lanacion.com.ar/",
+            },
+            {
+                tipo: "autor",
+                volanta: "El mapa que mira el mundo",
+                titulo: "Así avanzan las tropas rusas sobre Ucrania",
+                bajada: "La mirada de Estados Unidos y sus aliados de la OTAN está más pendiente que nunca de los límites geográficos entre Rusia y Ucrania",
+                imagen: "https://buckets3.glanacion.com/lntools/anexos/fotos/84/40584w1920q100.JPG",
+                nombreAutor: "Lucia Sol Miguel",
+                imagenAutor: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                url: "https://www.lanacion.com.ar/el-mundo/por-que-una-guerra-en-ucrania-seria-distinta-a-cualquier-que-hemos-visto-en-los-ultimos-80-anos-nid21022022/",
+            },
+        ],
+    },
+    {
+        titulo: "Sociedad",
+        link: "https://www.lanacion.com.ar/sociedad/",
+        tipo: "notas_9",
+        articulos: [
+            {
+                tipo: "",
+                volanta: "Volanta 3",
+                titulo: "El acuerdo con el FMI agudiza la división del oficialismo en el Senado",
+                bajada: "Senadores referenciados en los gobernadores apoyaron el entendimiento y desafiaron la orden de mantener silencio que bajó Cristina Kirchner",
+                imagen: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                marquesina: "Marquesina",
+                nombreAutor: "SeñorX",
+                imagenAutor:
+                    "https://resizer.glanacion.com/resizer/H0bAPygOqfZgvhf2lfADFrinyUU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/3H4MZ3Z5TNHEDCWRMJSNVDXJFE",
+                url: "https://www.lanacion.com.ar/",
+            },
+            {
+                tipo: "",
+                volanta: "El mapa que mira el mundo",
+                titulo: "Así avanzan las tropas rusas sobre Ucrania",
+                bajada: "La mirada de Estados Unidos y sus aliados de la OTAN está más pendiente que nunca de los límites geográficos entre Rusia y Ucrania",
+                imagen: "https://buckets3.glanacion.com/lntools/anexos/fotos/84/40584w1920q100.JPG",
+                nombreAutor: "Lucia Sol Miguel",
+                imagenAutor: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                url: "https://www.lanacion.com.ar/el-mundo/por-que-una-guerra-en-ucrania-seria-distinta-a-cualquier-que-hemos-visto-en-los-ultimos-80-anos-nid21022022/",
+            },
+            {
+                tipo: "",
+                volanta: "El mapa que mira el mundo",
+                titulo: "Así avanzan las tropas rusas sobre Ucrania",
+                bajada: "La mirada de Estados Unidos y sus aliados de la OTAN está más pendiente que nunca de los límites geográficos entre Rusia y Ucrania",
+                imagen: "https://buckets3.glanacion.com/lntools/anexos/fotos/84/40584w1920q100.JPG",
+                nombreAutor: "Lucia Sol Miguel",
+                imagenAutor: "https://wakyma.com/blog/wp-content/uploads/2019/10/herbee-el-erizo-feliz-770x460.jpg",
+                url: "https://www.lanacion.com.ar/el-mundo/por-que-una-guerra-en-ucrania-seria-distinta-a-cualquier-que-hemos-visto-en-los-ultimos-80-anos-nid21022022/",
+            },
+        ],
+    },
+];
+
+export default articles;
