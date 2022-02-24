@@ -1,0 +1,85 @@
+@import "../../sass/variables";
+@import "../../sass/media-queries";
+
+@font-face {
+    font-family: "Sueca Slab";
+    src: url(../../sass/fonts/SuecaSlab-Medium-webfont.woff2);
+}
+@font-face {
+    font-family: "Sueca Slab";
+    src: url(../../sass/fonts/SuecaSlab-Bold-webfont.woff2);
+}
+
+.component_container {
+    text-decoration: none;
+    color: inherit;
+    position: static;
+    align-self: stretch;
+    flex: none;
+    display: flex;
+}
+/* Encabezado */
+.encabezado {
+    letter-spacing: 0.2px;
+    @include tablet {
+        letter-spacing: 0.4px;
+    }
+}
+.titulo_styles {
+    padding: 0 16px;
+    font-family: $font-header;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $font-size-header-medium;
+    line-height: $line-height-header-medium;
+}
+.volanta_styles {
+    color: $color-volanta;
+}
+
+/* Bajada */
+.bajada {
+    &_styles {
+        padding: 0px 16px;
+        font-family: $font-subhead;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $font-size-subhead;
+        line-height: $line-height-subhead;
+    }
+}
+
+/* Marquesina */
+.marquesina {
+    &_styles {
+        padding: 0 16px;
+        font-family: Arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* Imagen */
+.imagen {
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+
+    &_style {
+        background-color: #bee4ff;
+        position: static;
+        min-height: 156px;
+        width: 100%;
+    }
+}
+
+/* ImagenAutor */
+.imagenAutor {
+    background-color: #cccccc;
+    &_style {
+        border: 1px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 50%;
+    }
+}
