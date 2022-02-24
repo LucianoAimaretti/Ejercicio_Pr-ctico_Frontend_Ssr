@@ -1,13 +1,12 @@
 import React from "react";
 import "./sass/app.scss";
-import data from "./api/articles.js";
-import Articulo from "./components/Articulos/Articulo";
-
+import datos from "./api/articles.js";
+import Modulo from "./components/Modulos/Modulo";
 function App() {
     return (
-        <div className="body_container">
-            {data.map((grupoTipo, index) => {
-                return <Articulo key={index} articulos={grupoTipo.articulos} />;
+        <div className="body">
+            {datos.map((modulo, index) => {
+                return <Modulo key={index} titulo={modulo.titulo} url={modulo.url} tipo={modulo.tipo} articulos={modulo.articulos} />;
             })}
         </div>
     );

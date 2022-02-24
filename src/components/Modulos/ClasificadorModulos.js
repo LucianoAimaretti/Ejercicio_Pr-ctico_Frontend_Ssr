@@ -1,7 +1,7 @@
 import React from "react";
 import Articulo from "../Articulos/Articulo";
 
-function Modulos({ tipo, articulos }) {
+function ClasificadorModulos({ tipo, articulos }) {
     switch (tipo) {
         case "notas_2":
             return (
@@ -54,4 +54,4 @@ function Modulos({ tipo, articulos }) {
             );
     }
 }
-export default Modulos;
+export default ClasificadorModulos;

@@ -1,7 +1,7 @@
 const articles = [
     {
         titulo: "Actualidad",
-        link: "",
+        url: "",
         tipo: "focal_derecho",
         articulos: [
             {
@@ -40,7 +40,7 @@ const articles = [
     },
     {
         titulo: "Opinión",
-        link: "https://www.lanacion.com.ar/opinion/",
+        url: "https://www.lanacion.com.ar/opinion/",
         tipo: "notas_2",
         articulos: [
             {
@@ -69,7 +69,7 @@ const articles = [
     },
     {
         titulo: "Sociedad",
-        link: "https://www.lanacion.com.ar/sociedad/",
+        url: "https://www.lanacion.com.ar/sociedad/",
         tipo: "notas_9",
         articulos: [
             {
