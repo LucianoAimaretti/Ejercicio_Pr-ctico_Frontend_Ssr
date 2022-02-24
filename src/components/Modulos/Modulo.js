@@ -1,22 +1,12 @@
 import React from "react";
 import ClasificadorModulos from "./ClasificadorModulos";
+import "./stylesModulos.scss";
 
 function Modulo({ titulo, url, tipo, articulos }) {
-    console.log("titulo => ", titulo, "url=> ", url, "tipo => ", tipo, "articulos => ", articulos);
     return (
-        <div className="container">
-            {titulo ? (
-                <h2 className="container_titulo">
-                    {url ? (
-                        <a className="" href={url}>
-                            {titulo}
-                        </a>
-                    ) : (
-                        titulo
-                    )}
-                </h2>
-            ) : null}
-            <section className="container">
+        <div className="modulo">
+            {titulo ? <h3 className="modulo_titulo">{url ? <a href={url}>{titulo}</a> : titulo}</h3> : null}
+            <section className="modulo_main">
                 <ClasificadorModulos tipo={tipo} articulos={articulos} />
             </section>
         </div>
