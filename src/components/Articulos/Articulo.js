@@ -3,13 +3,11 @@ import "../../sass/app.scss";
 import ClasificadorArticulos from "./ClasificadorArticulos";
 
 function Articulo({ articulos }) {
-    return articulos.map((articulo, index) => {
-        return (
-            <article className="card">
-                <ClasificadorArticulos key={index} tipo={articulo.tipo} datos={articulo} />
-            </article>
-        );
-    });
+    return (
+        <article className="article_container">
+            <ClasificadorArticulos tipo={articulos.tipo} datos={articulos} />
+        </article>
+    );
 }
 
 export default Articulo;
