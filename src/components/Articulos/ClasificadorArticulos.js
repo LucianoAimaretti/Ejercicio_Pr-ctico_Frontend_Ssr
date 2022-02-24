@@ -1,5 +1,5 @@
 import React from "react";
-import "./stylesComponentes.scss";
+import "./componentes.scss";
 import { Encabezado, Bajada, Imagen, ImagenAutor, Marquesina } from "./ComponentesArticulo/index";
 
 const AdministradorComponentes = (datos) => ({

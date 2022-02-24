@@ -1,6 +1,6 @@
 import React from "react";
 import ClasificadorModulos from "./ClasificadorModulos";
-import "./stylesModulos.scss";
+import "./modulos.scss";
 
 function Modulo({ titulo, url, tipo, articulos }) {
     return (
