@@ -36,9 +36,9 @@
     /* Encabezado */
     .encabezado {
         letter-spacing: 0.2px;
-        /* @include tablet {
-        letter-spacing: 0.4px;
-    } */
+        @include tablet {
+            letter-spacing: 0.4px;
+        }
     }
     .titulo_styles {
         margin: 0 0 8px;
