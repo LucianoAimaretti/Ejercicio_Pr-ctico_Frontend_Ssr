@@ -9,18 +9,18 @@
         gap: $gap;
         border-bottom: 1px solid $border-color;
         padding-bottom: 32px;
+        .article_container {
+            .titulo_styles {
+                font-weight: bold;
+                font-size: 24px;
+            }
+        }
         .parte_izquierda {
-            display: flex;
-            flex-direction: column;
             padding-right: $gap;
             gap: $gap;
             .article_container {
-                width: $width-parte-izquierda;
                 height: 392px;
-            }
-            .titulo_style {
-                font-size: $font-size-header-big;
-                line-height: $line-height-header-medium;
+                width: $width-parte-izquierda;
             }
         }
         .parte_derecha {
@@ -30,10 +30,6 @@
                 display: flex;
                 flex-direction: column;
                 width: $width-parte-derecha;
-                .titulo_style {
-                    font-size: 24px;
-                    line-height: $line-height-header-medium;
-                }
                 .imagen {
                     order: 0;
                     &_style {
@@ -50,30 +46,20 @@
         $width-parte-derecha: 560px;
 
         grid-template-columns: $width-parte-izquierda $width-parte-derecha + $gap;
-        gap: $gap;
-
-        .article_container {
-            min-width: 100%;
-        }
+        width: 920px;
+        align-items: start;
         .parte_izquierda {
-            gap: $gap;
-
-            padding-right: $gap;
             .article_container {
-                width: $width-parte-izquierda;
-            }
-            .titulo_style {
                 font-size: $font-size-header-big;
                 line-height: $line-height-header-medium;
+                width: $width-parte-izquierda;
             }
         }
         .parte_derecha {
             padding-left: $gap;
             .article_container {
                 width: $width-parte-derecha;
-                .titulo_style {
-                    line-height: $line-height-header-medium;
-                }
+                line-height: $line-height-header-medium;
                 .imagen {
                     &_style {
                         min-height: 373.33px;
