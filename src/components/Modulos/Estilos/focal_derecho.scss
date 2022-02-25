@@ -51,21 +51,16 @@
 
         grid-template-columns: $width-parte-izquierda $width-parte-derecha + $gap;
         gap: $gap;
-        border-bottom: 1px solid $border-color;
-        padding-bottom: 32px;
 
         .article_container {
             min-width: 100%;
         }
         .parte_izquierda {
-            display: flex;
-            flex-direction: column;
             gap: $gap;
 
             padding-right: $gap;
             .article_container {
                 width: $width-parte-izquierda;
-                height: 392px;
             }
             .titulo_style {
                 font-size: $font-size-header-big;
@@ -73,13 +68,10 @@
             }
         }
         .parte_derecha {
-            border-left: 1px solid $border-color;
-
             padding-left: $gap;
             .article_container {
                 width: $width-parte-derecha;
                 .titulo_style {
-                    font-size: 24px;
                     line-height: $line-height-header-medium;
                 }
                 .imagen {
