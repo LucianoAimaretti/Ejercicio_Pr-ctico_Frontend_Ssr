@@ -1,0 +1,33 @@
+.notas_3 {
+    @include tablet {
+        align-items: start;
+        height: 180%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+
+        .article_container {
+            padding-bottom: 32px;
+            min-height: 318.44px;
+            .encabezado {
+                margin: 0;
+                .titulo_styles {
+                    list-style: $line-height-header-small;
+                    font-size: $font-size-header-small;
+                }
+
+                .imagen_style {
+                    height: 156.44px;
+                }
+            }
+        }
+    }
+    @include desktop {
+        gap: 40px;
+        .article_container {
+            .imagen_style {
+                min-height: 186.67px;
+            }
+        }
+    }
+}
