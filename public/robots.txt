@@ -1,3 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Sitemap: https://la-nacion-ejercicio-frontend.vercel.app/sitemap.xml
 Disallow:
