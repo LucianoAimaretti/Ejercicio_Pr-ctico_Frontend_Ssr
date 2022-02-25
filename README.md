@@ -29,8 +29,5 @@ Se solicita crear un proyecto de React en un repositorio git para la entrega del
 
 > Se valorará la realizacion de test unitarios con JEST.
 
-#
-
 ## App funcional: [Link App](https://la-nacion-ejercicio-frontend.vercel.app/)
 
-#
