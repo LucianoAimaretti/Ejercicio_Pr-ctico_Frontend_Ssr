@@ -1,0 +1,96 @@
+@import "../../sass/variables";
+@import "../../sass/media-queries";
+
+@font-face {
+    font-family: "Sueca Slab";
+    src: url(../../sass/fonts/SuecaSlab-Bold-webfont.woff2);
+}
+@font-face {
+    font-family: "Sueca Slab";
+    src: url(../../sass/fonts/SuecaSlab-Medium-webfont.woff2);
+}
+
+.article_container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+
+    &:hover {
+        h1 {
+            transition: all 0.3s ease;
+            opacity: 0.7;
+        }
+        img {
+            transition: all 0.3s ease;
+            filter: brightness(1.1);
+        }
+    }
+
+    .component_container {
+        position: static;
+        align-self: stretch;
+        flex: none;
+    }
+
+    /* Encabezado */
+    .encabezado {
+        letter-spacing: 0.2px;
+        @include tablet {
+            letter-spacing: 0.4px;
+        }
+    }
+    .titulo_styles {
+        margin: 0 0 8px;
+        padding: 0 16px;
+        font-family: $font-header;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $font-size-header-medium;
+        line-height: $line-height-header-medium;
+    }
+    .volanta_styles {
+        color: $color-volanta;
+    }
+
+    /* Bajada */
+    .bajada {
+        &_styles {
+            font-family: $font-subhead;
+            font-style: normal;
+            font-weight: normal;
+            font-size: $font-size-subhead;
+            line-height: $line-height-subhead;
+            padding: 0px 16px;
+        }
+    }
+
+    /* Marquesina */
+    .marquesina {
+        &_styles {
+            font-family: Arial;
+            font-style: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: $color-marquesina;
+            padding-left: 16px;
+        }
+    }
+
+    /* Imagen */
+    .imagen {
+        display: flex;
+        border: 1px solid #cccccc;
+        box-sizing: border-box;
+
+        &_style {
+            background-color: #bee4ff;
+            position: static;
+            min-height: 156px;
+            width: 100%;
+        }
+    }
+
+    @import "./Estilos/autorComponent";
+}
+@import "./Estilos/responsive.scss";
