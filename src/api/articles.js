@@ -42,6 +42,26 @@ const articles = [
         ],
     },
     {
+        titulo: "Campo",
+        url: "https://www.lanacion.com.ar/economia/campo/",
+        tipo: "notas_2",
+        articulos: [
+            {
+                volanta: "Incendios",
+                titulo: "El campo le pidió al Gobierno que acelere y “desburocratice” la ayuda financiera para Corrientes",
+                imagen: "https://resizer.glanacion.com/resizer/RVRMA7jeCxPZtk-l82AOt18Kp2U=/608x407/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KQ2CQ3NXVJAMXCL6ACCPKB3TNU.JPG",
+                nombreAutor: "Mariana Reinke",
+                url: "https://www.lanacion.com.ar/economia/campo/el-campo-le-pidio-al-gobierno-que-acelere-y-desburocratice-la-ayuda-financiera-para-corrientes-nid24022022/",
+            },
+            {
+                volanta: "Escalada",
+                titulo: "El conflicto militar provocó una estampida: bajó la soja y el trigo cerró con una fuerte suba",
+                imagen: "https://resizer.glanacion.com/resizer/9bTke7RYSnU2ssq1VQp_EQzZfzg=/608x407/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/RJTVJZKZWNGKVIWVTDQHMGXHMY.jpg",
+                url: "https://www.lanacion.com.ar/economia/campo/agricultura/el-ataque-de-rusia-a-ucrania-provoco-una-estampida-en-los-precios-de-la-soja-el-trigo-y-el-maiz-nid24022022/",
+            },
+        ],
+    },
+    {
         titulo: "Politica",
         url: "https://www.lanacion.com.ar/politica/",
         tipo: "notas_3",
@@ -75,13 +95,6 @@ const articles = [
         tipo: "notas_3",
         articulos: [
             {
-                volanta: "Por tercera vez",
-                titulo: "Se postergó el tratamiento del caso del juez que le devolvió medio millón de dólares a una de las hijas de Moyano",
-                imagen: "https://resizer.glanacion.com/resizer/SesZXYJp_-l7gUrFGkr9bwH567g=/318x213/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/NPOWGM2AMZHAPKJ3S5P6XAO4OY.jpg",
-                marquesina: "Consejo de la Magistratura",
-                url: "",
-            },
-            {
                 tipo: "invertida",
                 volanta: "'Siguen vigentes'",
                 titulo: "Cuáles son los acuerdos de cooperación que la Argentina mantiene con Rusia",
@@ -90,8 +103,16 @@ const articles = [
                 url: "https://www.lanacion.com.ar/politica/el-gobierno-afirmo-que-siguen-vigentes-los-acuerdos-de-cooperacion-firmados-con-rusia-a-pesar-de-la-nid24022022/",
             },
             {
+                volanta: "Por tercera vez",
+                titulo: "Se postergó el tratamiento del caso del juez que le devolvió medio millón de dólares a una de las hijas de Moyano",
+                imagen: "https://resizer.glanacion.com/resizer/SesZXYJp_-l7gUrFGkr9bwH567g=/318x213/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/NPOWGM2AMZHAPKJ3S5P6XAO4OY.jpg",
+                marquesina: "Consejo de la Magistratura",
+                url: "",
+            },
+            {
                 volanta: "Docentes",
                 titulo: "Pese a la pauta de 45% que trazó la Nación, hay conflictos salariales en al menos cuatro provincias",
+                imagen: "https://resizer.glanacion.com/resizer/yNGNRQDCGr9DNm8ppx3uwD7I5IM=/768x512/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HM4MBUWZSRHGJNGTI6MPXABGWQ.JPG",
                 nombreAutor: "Delfina Celichini",
                 url: "https://www.lanacion.com.ar/politica/pese-a-la-pauta-de-45-que-trazo-la-nacion-hay-conflictos-salariales-con-docentes-en-al-menos-cuatro-nid24022022/",
             },
@@ -112,7 +133,7 @@ const articles = [
                 tipo: "",
                 volanta: "Por twitter",
                 titulo: "Alberto Fernández le pidió a Rusia que cese el ataque y que respete la soberanía",
-                bajada: "El Presidente se refirió al conflicto bélico después de la suave condena que hizo la Cancillería; “que todas las partes vuelvan a la mesa de diálogo”, dijo",
+                imagen: "https://resizer.glanacion.com/resizer/W05hTEPQK-L878d81PVZG_IfYW4=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/K3GPEWNREZAENOZUGUUN7EPKT4.png",
                 marquesina: "Guerra en Ucrania",
                 url: "https://www.lanacion.com.ar/politica/alberto-fernandez-le-pidio-a-rusia-que-cese-el-ataque-y-que-respete-la-soberania-nid24022022/",
             },
