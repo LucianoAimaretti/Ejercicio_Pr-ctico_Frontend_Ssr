@@ -3,8 +3,8 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         .article_container {
+            min-height: 368px;
             align-items: center;
-            width: 100%;
             .imagen_style {
                 height: 240px;
             }
@@ -12,6 +12,8 @@
     }
     @include desktop {
         .article_container {
+            min-height: 321.33;
+            margin-bottom: 22px;
             .imagen_style {
                 min-height: 293.33px;
             }
