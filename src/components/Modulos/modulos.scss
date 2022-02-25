@@ -26,6 +26,7 @@
         &_titulo {
             font-family: $font-header;
             font-style: normal;
+            font-weight: bold;
             margin: 8px 0;
         }
         @import "./Estilos/notas_2.scss";
