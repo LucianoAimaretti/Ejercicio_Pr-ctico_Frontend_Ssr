@@ -2,8 +2,8 @@
     @include tablet {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 368px;
         .article_container {
+            height: 368px;
             .titulo_styles {
                 font-weight: bold;
             }
