@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: "Sueca Slab";
-    src: url(../../sass/fonts/SuecaSlab-Medium-webfont.woff2);
+    src: url(../../sass/fonts/SuecaSlab-Bold-webfont.woff2);
 }
 @font-face {
     font-family: "Sueca Slab";
-    src: url(../../sass/fonts/SuecaSlab-Bold-webfont.woff2);
+    src: url(../../sass/fonts/SuecaSlab-Medium-webfont.woff2);
 }
 
 .article_container {
@@ -48,7 +48,6 @@
         font-weight: normal;
         font-size: $font-size-header-medium;
         line-height: $line-height-header-medium;
-        color: $color-titulo;
     }
     .volanta_styles {
         color: $color-volanta;
@@ -62,7 +61,6 @@
             font-weight: normal;
             font-size: $font-size-subhead;
             line-height: $line-height-subhead;
-            color: $color-bajada;
             padding: 0px 16px;
         }
     }
@@ -72,7 +70,6 @@
         &_styles {
             font-family: Arial;
             font-style: normal;
-            font-weight: bold;
             font-size: 14px;
             line-height: 16px;
             color: $color-marquesina;

@@ -6,6 +6,10 @@
         .titulo_styles {
             font-size: $font-size-header-medium;
             line-height: $line-height-header-medium;
+        }
+        .titulo_styles,
+        .bajada_styles,
+        .marquesina_styles {
             padding: 0;
         }
         .imagen_style {
