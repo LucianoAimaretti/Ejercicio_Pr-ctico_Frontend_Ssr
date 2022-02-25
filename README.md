@@ -31,3 +31,16 @@ Se solicita crear un proyecto de React en un repositorio git para la entrega del
 
 ## App funcional: [Link App](https://la-nacion-ejercicio-frontend.vercel.app/)
 
+## App Local
+
+En caso de querer la app en local, se deben seguir los siguientes pasos:
+
+-   Abrir la ventana de comandos y ejecutar `git clone https://github.com/LucianoAimaretti/Ejercicio_Practico_Frontend_Ssr.git`
+
+-   Ingresamos en la carpeta contenedora y ejecutamos `npm i`
+
+-   Por utimo ejecutamos `npm start`
+
+## Test Unitarios
+
+Para realizar dichos test, una vez dentro de la carpeta contenedora ejecutamos `npm test`
