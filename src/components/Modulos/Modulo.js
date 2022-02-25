@@ -6,7 +6,7 @@ function Modulo({ titulo, url, tipo, articulos }) {
     return (
         <div className="modulo">
             {titulo ? <h3 className="modulo_titulo">{url ? <a href={url}>{titulo}</a> : titulo}</h3> : null}
-            <section className={`modulo_main ${tipo ? tipo : null}`}>
+            <section className={`modulo_main ${tipo ? tipo : ""}`}>
                 <ClasificadorModulos tipo={tipo} articulos={articulos} />
             </section>
         </div>

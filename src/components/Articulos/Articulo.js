@@ -4,7 +4,7 @@ import ClasificadorArticulos from "./ClasificadorArticulos";
 
 function Articulo({ articulos, tipo }) {
     return (
-        <article className={`article_container ${tipo ? tipo : null}`}>
+        <article className={`article_container ${tipo ? tipo : ""}`}>
             <ClasificadorArticulos tipo={tipo} datos={articulos} />
         </article>
     );
