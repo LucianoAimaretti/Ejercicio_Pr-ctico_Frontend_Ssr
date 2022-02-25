@@ -2,7 +2,11 @@
     @include tablet {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        height: 368px;
         .article_container {
+            .titulo_styles {
+                font-weight: bold;
+            }
             min-height: 368px;
             align-items: center;
             .imagen_style {
@@ -12,7 +16,7 @@
     }
     @include desktop {
         .article_container {
-            min-height: 421.33px;
+            height: 421.33px;
             .imagen_style {
                 min-height: 293.33px;
             }
